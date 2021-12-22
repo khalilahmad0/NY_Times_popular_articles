@@ -1,7 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.khalil_div.ny_times_popular_articles">
-   <application
-        android:label="ny_times_popular_articles"
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:label="NY Times Popular Article"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
