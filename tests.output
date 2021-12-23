@@ -1,0 +1,68 @@
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":25944,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"C:\\Users\\khali\\AndroidStudioProjects\\ny_times_popular_articles\\test\\article_controller_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading C:\\Users\\khali\\AndroidStudioProjects\\ny_times_popular_articles\\test\\article_controller_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1}
+{"suite":{"id":2,"platform":"vm","path":"C:\\Users\\khali\\AndroidStudioProjects\\ny_times_popular_articles\\test\\article_details_test.dart"},"type":"suite","time":7}
+{"test":{"id":3,"name":"loading C:\\Users\\khali\\AndroidStudioProjects\\ny_times_popular_articles\\test\\article_details_test.dart","suiteID":2,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":8}
+{"suite":{"id":4,"platform":"vm","path":"C:\\Users\\khali\\AndroidStudioProjects\\ny_times_popular_articles\\test\\article_item_test.dart"},"type":"suite","time":9}
+{"test":{"id":5,"name":"loading C:\\Users\\khali\\AndroidStudioProjects\\ny_times_popular_articles\\test\\article_item_test.dart","suiteID":4,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":9}
+{"suite":{"id":6,"platform":"vm","path":"C:\\Users\\khali\\AndroidStudioProjects\\ny_times_popular_articles\\test\\article_service_test.dart"},"type":"suite","time":9}
+{"test":{"id":7,"name":"loading C:\\Users\\khali\\AndroidStudioProjects\\ny_times_popular_articles\\test\\article_service_test.dart","suiteID":6,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":9}
+{"suite":{"id":8,"platform":"vm","path":"C:\\Users\\khali\\AndroidStudioProjects\\ny_times_popular_articles\\test\\loading_widget_test.dart"},"type":"suite","time":10}
+{"test":{"id":9,"name":"loading C:\\Users\\khali\\AndroidStudioProjects\\ny_times_popular_articles\\test\\loading_widget_test.dart","suiteID":8,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":10}
+{"count":5,"time":11,"type":"allSuites"}
+
+[{"event":"test.startedProcess","params":{"observatoryUri":null}}]
+
+[{"event":"test.startedProcess","params":{"observatoryUri":null}}]
+
+[{"event":"test.startedProcess","params":{"observatoryUri":null}}]
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1532}
+{"group":{"id":10,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":null,"column":null,"url":null},"type":"group","time":1539}
+{"group":{"id":11,"suiteID":0,"parentID":10,"name":"ArticleController Tests","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":20,"column":3,"url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_controller_test.dart"},"type":"group","time":1540}
+{"test":{"id":12,"name":"ArticleController Tests Call ArticleController with valid articles","suiteID":0,"groupIDs":[10,11],"metadata":{"skip":false,"skipReason":null},"line":21,"column":5,"url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_controller_test.dart"},"type":"testStart","time":1541}
+
+[{"event":"test.startedProcess","params":{"observatoryUri":null}}]
+{"testID":12,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1593}
+{"test":{"id":13,"name":"ArticleController Tests Call ArticleController with an empty list","suiteID":0,"groupIDs":[10,11],"metadata":{"skip":false,"skipReason":null},"line":38,"column":5,"url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_controller_test.dart"},"type":"testStart","time":1594}
+{"testID":13,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1599}
+
+[{"event":"test.startedProcess","params":{"observatoryUri":null}}]
+{"testID":3,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1747}
+{"group":{"id":14,"suiteID":2,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":null,"column":null,"url":null},"type":"group","time":1747}
+{"group":{"id":15,"suiteID":2,"parentID":14,"name":"Article Details Tests","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":36,"column":3,"url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_details_test.dart"},"type":"group","time":1748}
+{"test":{"id":16,"name":"Article Details Tests Missing Fields Test","suiteID":2,"groupIDs":[14,15],"metadata":{"skip":false,"skipReason":null},"line":159,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":37,"root_column":5,"root_url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_details_test.dart"},"type":"testStart","time":1748}
+{"testID":5,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1869}
+{"group":{"id":17,"suiteID":4,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":null,"column":null,"url":null},"type":"group","time":1869}
+{"group":{"id":18,"suiteID":4,"parentID":17,"name":"Article Item Tests","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":36,"column":3,"url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_item_test.dart"},"type":"group","time":1870}
+{"test":{"id":19,"name":"Article Item Tests Missing Fields Test","suiteID":4,"groupIDs":[17,18],"metadata":{"skip":false,"skipReason":null},"line":159,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":37,"root_column":5,"root_url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_item_test.dart"},"type":"testStart","time":1870}
+{"testID":7,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":2001}
+{"group":{"id":20,"suiteID":6,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":6,"line":null,"column":null,"url":null},"type":"group","time":2001}
+{"group":{"id":21,"suiteID":6,"parentID":20,"name":"Article Service Tests","metadata":{"skip":false,"skipReason":null},"testCount":6,"line":18,"column":3,"url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_service_test.dart"},"type":"group","time":2001}
+{"test":{"id":22,"name":"Article Service Tests Fetch articles with status 200","suiteID":6,"groupIDs":[20,21],"metadata":{"skip":false,"skipReason":null},"line":19,"column":5,"url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_service_test.dart"},"type":"testStart","time":2001}
+{"testID":22,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2039}
+{"test":{"id":23,"name":"Article Service Tests Fetch articles with status 200 with media-metadata empty or less than 3","suiteID":6,"groupIDs":[20,21],"metadata":{"skip":false,"skipReason":null},"line":30,"column":5,"url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_service_test.dart"},"type":"testStart","time":2040}
+{"testID":23,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2045}
+{"test":{"id":24,"name":"Article Service Tests Fetch articles with status 200 without media-metadata","suiteID":6,"groupIDs":[20,21],"metadata":{"skip":false,"skipReason":null},"line":46,"column":5,"url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_service_test.dart"},"type":"testStart","time":2045}
+{"testID":24,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2049}
+{"test":{"id":25,"name":"Article Service Tests Fetch articles with status 200 without media","suiteID":6,"groupIDs":[20,21],"metadata":{"skip":false,"skipReason":null},"line":60,"column":5,"url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_service_test.dart"},"type":"testStart","time":2050}
+{"testID":25,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2054}
+{"test":{"id":26,"name":"Article Service Tests Fetch articles from API with status 401 (Invalid API Key)","suiteID":6,"groupIDs":[20,21],"metadata":{"skip":false,"skipReason":null},"line":71,"column":5,"url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_service_test.dart"},"type":"testStart","time":2054}
+{"testID":26,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2061}
+{"test":{"id":27,"name":"Article Service Tests Fetch articles from API with status 500 (Server error)","suiteID":6,"groupIDs":[20,21],"metadata":{"skip":false,"skipReason":null},"line":81,"column":5,"url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_service_test.dart"},"type":"testStart","time":2062}
+{"testID":27,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2067}
+{"testID":9,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":2180}
+{"group":{"id":28,"suiteID":8,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":null,"column":null,"url":null},"type":"group","time":2180}
+{"group":{"id":29,"suiteID":8,"parentID":28,"name":"LoadingWidget Tests","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":12,"column":3,"url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/loading_widget_test.dart"},"type":"group","time":2180}
+{"test":{"id":30,"name":"LoadingWidget Tests Circular indicator test","suiteID":8,"groupIDs":[28,29],"metadata":{"skip":false,"skipReason":null},"line":159,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":13,"root_column":5,"root_url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/loading_widget_test.dart"},"type":"testStart","time":2180}
+{"testID":16,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2379}
+{"test":{"id":31,"name":"Article Details Tests Complete Fields Test","suiteID":2,"groupIDs":[14,15],"metadata":{"skip":false,"skipReason":null},"line":159,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":53,"root_column":5,"root_url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_details_test.dart"},"type":"testStart","time":2380}
+{"testID":19,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2400}
+{"test":{"id":32,"name":"Article Item Tests Complete Fields Test","suiteID":4,"groupIDs":[17,18],"metadata":{"skip":false,"skipReason":null},"line":159,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":55,"root_column":5,"root_url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/article_item_test.dart"},"type":"testStart","time":2401}
+{"testID":32,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2453}
+{"testID":31,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2471}
+{"testID":30,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2585}
+{"test":{"id":33,"name":"LoadingWidget Tests SizedBox test","suiteID":8,"groupIDs":[28,29],"metadata":{"skip":false,"skipReason":null},"line":159,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":20,"root_column":5,"root_url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/loading_widget_test.dart"},"type":"testStart","time":2586}
+{"testID":33,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2632}
+{"test":{"id":34,"name":"LoadingWidget Tests Loading text test","suiteID":8,"groupIDs":[28,29],"metadata":{"skip":false,"skipReason":null},"line":159,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":27,"root_column":5,"root_url":"file:///C:/Users/khali/AndroidStudioProjects/ny_times_popular_articles/test/loading_widget_test.dart"},"type":"testStart","time":2632}
+{"testID":34,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2676}
+{"success":true,"type":"done","time":2700}
