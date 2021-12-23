@@ -28,7 +28,7 @@ doc/api/
 .idea/**/dictionaries
 .idea/**/shelf
 
-.idea
+.idea/
 
 
 # Gradle
