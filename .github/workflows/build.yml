@@ -26,6 +26,8 @@ jobs:
       - run: flutter analyze
       # Run tests
       - run: flutter test
+      # Build apk
+      - run: flutter build apk
       - name: Cache SonarQube packages
         uses: actions/cache@v1
         with:
