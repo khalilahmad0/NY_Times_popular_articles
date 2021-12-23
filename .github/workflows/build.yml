@@ -20,29 +20,28 @@ jobs:
         uses: subosito/flutter-action@v1
         with:
           channel: 'stable'
-      # Get dependencies
       - run: flutter pub get
-      # Analyze code
       - run: flutter analyze
-      # Run tests
       - run: flutter test
-      # Build apk
-      - run: flutter build apk
-      - name: Cache SonarQube packages
-        uses: actions/cache@v1
+      - name: Build APK
+      - run: flutter build apk --release
+      - name: Build APPBUNDLE
+        run: flutter build appbundle --release
+
+      - name: Create Github Release
+        uses: ncipollo/release-action@v1
         with:
-          path: ~/.sonar/cache
-          key: ${{ runner.os }}-sonar
-          restore-keys: ${{ runner.os }}-sonar
-      - name: Cache Gradle packages
-        uses: actions/cache@v1
+          artifacts: "build/app/outputs/apk/release/*.apk,build/app/outputs/bundle/release/*.aab"
+          token: ${{ secrets.GITHUB_TOKEN  }}
+
+      - name: Save APPBUNDLE to Artifacts
+        uses: actions/upload-artifact@v2
         with:
-          path: ~/.gradle/caches
-          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
-          restore-keys: ${{ runner.os }}-gradle
-      - name: Build and analyze
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: ./gradlew build sonarqube --info
+          name: APPBUNDLE
+          path: build/app/outputs/bundle/release/app-release.aab
+
+      - name: Save APK to Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: APPBUNDLE
+          path: build/app/outputs/bundle/release/app-release.apk

@@ -1,0 +1,6 @@
+projectKey=NY-Times-Popular-Articles
+serverUrl=http://localhost:9000
+serverVersion=9.2.4.50792
+dashboardUrl=http://localhost:9000/dashboard?id=NY-Times-Popular-Articles
+ceTaskId=AX3m0Bm_5vI9qvVoRrRR
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX3m0Bm_5vI9qvVoRrRR
