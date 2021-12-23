@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:ny_times_popular_articles/controllers/article_controller.dart';
@@ -60,13 +58,13 @@ class _ArticlesListScreenState extends State<ArticlesListScreen> {
                   SizedBox(
                     width: 10,
                   ),
-                  Text("Error"),
+                  Text('Error'),
                 ],
               ),
               content: Text('${snapshot.error}'.replaceAll('Exception: ', '')),
               actions: <Widget>[
                 TextButton(
-                  child: const Text("Retry"),
+                  child: const Text('Retry'),
                   onPressed: () {
                     setState(() {});
                   },

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ny_times_popular_articles/utils/constants.dart';
 
-import 'articles_list.dart';
+import 'package:ny_times_popular_articles/views/articles_list.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);

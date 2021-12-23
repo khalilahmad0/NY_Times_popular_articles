@@ -26,9 +26,9 @@ class ArticleService {
         throw Exception(responseData['fault']['faultstring']); // API Error
       }
     } on SocketException catch (_) {
-      throw Exception("No Internet Connection"); // No connection
+      throw Exception('No Internet Connection'); // No connection
     } catch (err) {
-      throw Exception("Unknown Error has occurred"); // Unknown error
+      throw Exception('Unknown Error has occurred'); // Unknown error
     }
   }
 }

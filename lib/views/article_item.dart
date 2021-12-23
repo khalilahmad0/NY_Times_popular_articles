@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ny_times_popular_articles/models/article_model.dart';
 import 'package:ny_times_popular_articles/utils/constants.dart';
 
-import 'article_detail.dart';
+import 'package:ny_times_popular_articles/views/article_detail.dart';
 
 class ArticleItem extends StatelessWidget {
   const ArticleItem({required this.article, Key? key}) : super(key: key);

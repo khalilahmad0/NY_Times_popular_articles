@@ -29,8 +29,8 @@ class Article {
         if (e['type'] == 'image' &&
             e['media-metadata'] != null &&
             e['media-metadata'].length == 3) {
-          _thumbnail = e['media-metadata'][0]["url"];
-          _imagePath = e['media-metadata'][2]["url"];
+          _thumbnail = e['media-metadata'][0]['url'];
+          _imagePath = e['media-metadata'][2]['url'];
           break;
         }
       }

@@ -10,21 +10,21 @@ Widget loadingWidget = const MaterialApp(
 
 void main() {
   group('LoadingWidget Tests', () {
-    testWidgets("Circular indicator test", (WidgetTester tester) async {
+    testWidgets('Circular indicator test', (WidgetTester tester) async {
       await tester.pumpWidget(loadingWidget);
 
       var circularIndicator = find.byType(CircularProgressIndicator);
       expect(circularIndicator, findsOneWidget);
     });
 
-    testWidgets("SizedBox test", (WidgetTester tester) async {
+    testWidgets('SizedBox test', (WidgetTester tester) async {
       await tester.pumpWidget(loadingWidget);
 
       var sizedBox = find.byType(SizedBox);
       expect(sizedBox, findsOneWidget);
     });
 
-    testWidgets("Loading text test", (WidgetTester tester) async {
+    testWidgets('Loading text test', (WidgetTester tester) async {
       await tester.pumpWidget(loadingWidget);
 
       var loadingTextWidget = find.byType(Text);

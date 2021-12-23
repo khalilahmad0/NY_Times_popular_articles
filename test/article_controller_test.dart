@@ -17,8 +17,8 @@ final articleController =
 // ArticleController Unit Test
 @GenerateMocks([ArticleService])
 void main() {
-  group("ArticleController Tests", () {
-    test("Call ArticleController with valid articles", () async {
+  group('ArticleController Tests', () {
+    test('Call ArticleController with valid articles', () async {
       List<Article> testArticles = [
         Article(id: 1, title: 'First Article', author: 'First Author'),
         Article(id: 2, title: 'Second Article', author: 'Second Author'),
@@ -35,7 +35,7 @@ void main() {
       expect(articleController.popularArticles[2].author, 'Third Author');
     });
 
-    test("Call ArticleController with an empty list", () async {
+    test('Call ArticleController with an empty list', () async {
       List<Article> testArticles = [];
       when(articleService.getPopularArticles(client)).thenAnswer(
         (_) => Future.value(testArticles),

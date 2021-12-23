@@ -15,7 +15,7 @@ final client = MockClient();
 // ArticleService Unit Test
 @GenerateMocks([http.Client])
 void main() {
-  group("Article Service Tests", () {
+  group('Article Service Tests', () {
     test('Fetch articles with status 200', () async {
       String res =
           '{"results": [{"id": 1, "title": "Test Title 1", "byline": "Author", "section": "Test Section", "abstract": "Test Abstract","published_date": "2021-12-21","media": [{"type": "image", "media-metadata": [{"url": "https://www.thumbnail.com"}, {"url": "https://www.medium.com"}, {"url": "https://www.image.com"}]}]}]}';

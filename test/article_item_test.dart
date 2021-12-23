@@ -34,7 +34,7 @@ Widget fullArticleItemWidget = MaterialApp(
 
 void main() {
   group('Article Item Tests', () {
-    testWidgets("Missing Fields Test", (WidgetTester tester) async {
+    testWidgets('Missing Fields Test', (WidgetTester tester) async {
       // Use this to avoid HttpClient error (mock network images)
       mockNetworkImagesFor(
           () => tester.pumpWidget(missingArticleItemWidget).then((value) {
@@ -52,7 +52,7 @@ void main() {
               }));
     });
 
-    testWidgets("Complete Fields Test", (WidgetTester tester) async {
+    testWidgets('Complete Fields Test', (WidgetTester tester) async {
       // Use this to avoid HttpClient error (mock network images)
       mockNetworkImagesFor(
           () => tester.pumpWidget(fullArticleItemWidget).then((value) {
