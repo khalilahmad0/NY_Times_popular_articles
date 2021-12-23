@@ -28,6 +28,8 @@ doc/api/
 .idea/**/dictionaries
 .idea/**/shelf
 
+.idea
+
 
 # Gradle
 .idea/**/gradle.xml
