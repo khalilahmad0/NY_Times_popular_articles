@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.nytimes.com/">
-    <img src="https://github.com/khalilahmad0/NY_Times_popular_articles/tree/main/screenshots/logo.png" alt="Logo" width=72 height=72>
+    <img src="https://raw.githubusercontent.com/khalilahmad0/NY_Times_popular_articles/main/screenshots/logo.png" alt="Logo" width=72 height=72>
   </a>
 
   <h3 align="center">NY Times Most Popular Articles</h3>
