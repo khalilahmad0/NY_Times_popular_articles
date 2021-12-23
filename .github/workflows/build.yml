@@ -24,7 +24,7 @@ jobs:
       - run: flutter analyze
       - run: flutter test
       - name: Build APK
-      - run: flutter build apk --release
+        run: flutter build apk --release
       - name: Build APPBUNDLE
         run: flutter build appbundle --release
 
